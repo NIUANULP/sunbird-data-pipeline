@@ -27,6 +27,7 @@
     - rsync
     - zip
     - python3-pip
+    - python3-psycopg2
 
 - name: Set locale LC_ALL=en_US.UTF-8
   become: yes
