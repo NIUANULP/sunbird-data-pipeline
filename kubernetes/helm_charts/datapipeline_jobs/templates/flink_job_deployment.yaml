@@ -225,7 +225,6 @@ spec:
 {{- $prop := (index .Values.scale_properties $name)}}
 {{- if $prop.enabled}}
 ---
-{{- if .Values.autoscaling.enabled }}
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
