@@ -224,3 +224,4 @@ spec:
 {{- $name := .Release.Name }}
 {{- $prop := (index .Values.scale_properties $name)}}
 {{- if $prop.enabled}}
+{{- end }}
